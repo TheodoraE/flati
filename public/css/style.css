@@ -60,7 +60,7 @@ header .banner img {
   width: 100%;
 }
 
-section {
+section:first-of-type {
   padding: 2% 20%;
   text-align: center;
   font-size: 30px;
@@ -69,16 +69,59 @@ section {
   font-weight: 500;
 }
 
-section span:first-of-type {
+section:first-of-type span:first-of-type {
   background-color: #278dbc;
   color: white;
 }
 
-section span:nth-of-type(2) {
+section:first-of-type span:nth-of-type(2) {
   color: #278dbc;
   font-weight: 600;
 }
 
-section span:last-of-type {
+section:first-of-type span:last-of-type {
   font-weight: bolder;
+}
+
+section:nth-of-type(2) {
+  padding: 0% 15%;
+  background-color: #f3eded;
+  color: gray;
+}
+
+section:nth-of-type(2) .cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+section:nth-of-type(2) .cards div {
+  background-color: #d6cbcb;
+  margin: 3% 2%;
+  padding: 1%;
+  border-radius: 3%;
+}
+
+section:nth-of-type(2) .cards div i {
+  border: 2px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: blue;
+  padding: 5%;
+  background-color: #f3eded;
+}
+
+section:nth-of-type(2) .cards div h4 {
+  margin-bottom: 0%;
+  color: #5e5757;
+}
+
+section:nth-of-type(2) .cards div span {
+  color: blue;
+  font-size: 14px;
+}
+
+section:nth-of-type(2) .cards div p {
+  font-size: 14px;
+  padding-bottom: 15%;
 }

@@ -1,7 +1,10 @@
 body
     margin: 0%
     font-family: 'Noto Sans JP', sans-serif;
+
+// header
 header
+    // navbar
     nav
         padding: 0% 18%
         background-color: #313b44
@@ -35,6 +38,7 @@ header
                 li:hover
                     background-color: blue
                     padding-bottom: 3%
+    // 2ème partie : Banner
     .banner
         height: 500px
         img
@@ -42,7 +46,8 @@ header
             width: 100%
 // Fin header        
 
-section
+// Section 1
+section:first-of-type
     padding: 2% 20%
     text-align: center
     font-size: 30px
@@ -58,4 +63,37 @@ section
     span:last-of-type
         font-weight: bolder
 // Fin Section 1
+
+// Section 2 - row 1 : 4 cards
+section:nth-of-type(2)
+    padding: 0% 15%
+    background-color: #f3eded
+    color: gray
+        .cards
+        display: flex
+        justify-content: space-between
+        text-align: center
+        div
+            background-color: #d6cbcb
+            margin: 3% 2%
+            padding: 1%
+            border-radius: 3%
+            i
+                border: 2px
+                border-radius: 50%
+                font-size: 30px
+                color: blue
+                padding: 5%
+                background-color: #f3eded
+            h4
+                margin-bottom: 0%
+                color: #5e5757
+            span
+                color: blue
+                font-size: 14px
+            p
+                font-size: 14px
+                padding-bottom: 15%
+// Fin section 2
+
 
