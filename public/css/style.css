@@ -188,3 +188,36 @@ section:nth-of-type(3) .row2 .cards2 div .texte {
   text-align: center;
   background-color: #06212f;
 }
+
+footer {
+  text-align: center;
+  color: #7e8fa5;
+}
+
+footer .bleu {
+  background-color: #446196;
+  padding: 1% 24%;
+}
+
+footer .bleu h1 {
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+
+footer .bleu div {
+  padding: 3% 0%;
+}
+
+footer .bleu div i {
+  font-size: 50px;
+  margin: 0% 1%;
+}
+
+footer .copyright {
+  background-color: #2c2020;
+  padding: 1%;
+}
+
+footer .copyright p {
+  color: #695757;
+}
