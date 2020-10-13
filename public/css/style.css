@@ -97,7 +97,7 @@ section:nth-of-type(2) .cards {
 
 section:nth-of-type(2) .cards div {
   background-color: #d6cbcb;
-  margin: 3% 2%;
+  margin: 3% 2.5%;
   padding: 1%;
   border-radius: 3%;
 }
@@ -124,4 +124,67 @@ section:nth-of-type(2) .cards div span {
 section:nth-of-type(2) .cards div p {
   font-size: 14px;
   padding-bottom: 15%;
+}
+
+section:nth-of-type(3) {
+  padding: 0% 15%;
+  background-color: #f3eded;
+  color: grey;
+}
+
+section:nth-of-type(3) .row2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 4% 0%;
+}
+
+section:nth-of-type(3) .row2 .recent {
+  padding-right: 10%;
+  flex: 1;
+}
+
+section:nth-of-type(3) .row2 .recent h2 {
+  font-weight: 500;
+}
+
+section:nth-of-type(3) .row2 .recent p {
+  font-size: 14px;
+}
+
+section:nth-of-type(3) .row2 .recent p:nth-of-type(2) {
+  color: #5e5757;
+  font-weight: 400;
+}
+
+section:nth-of-type(3) .row2 .recent button {
+  background-color: #17889c;
+  padding: 4% 3%;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bolder;
+}
+
+section:nth-of-type(3) .row2 .cards2 {
+  display: flex;
+  flex: 1;
+  padding-bottom: 6%;
+}
+
+section:nth-of-type(3) .row2 .cards2 div {
+  margin: 0% 0.35%;
+}
+
+section:nth-of-type(3) .row2 .cards2 div div {
+  height: 170px;
+}
+
+section:nth-of-type(3) .row2 .cards2 div div img {
+  height: 100%;
+}
+
+section:nth-of-type(3) .row2 .cards2 div .texte {
+  padding: 3%;
+  text-align: center;
+  background-color: #06212f;
 }
