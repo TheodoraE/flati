@@ -107,8 +107,8 @@ section:nth-of-type(3)
         padding: 4% 0%
         // à gauche
         .recent
-            padding-right: 10% 
-            flex: 1
+            padding-right: 6% 
+            width: 35%
             h2
                 font-weight: 500
             p
@@ -126,18 +126,34 @@ section:nth-of-type(3)
         // à droite
         .cards2
             display: flex
-            flex: 1
+            width: 65%
             padding-bottom: 6%
+            justify-content: space-around
+            //div contient div img + div texte
+            //.catalogue, .loupe, .retro
             div
-                margin: 0% 0.35%
+                width: 32%
+                // div img
                 div
                     height: 170px
+                    width: 100%
                     img
                         height: 100%
+                        width: 100%
                 .texte
                     padding: 3%
                     text-align: center
                     background-color: #06212f
+                    width: 94%
+                    height: fit-content
+                    border-bottom-left-radius: 5px
+                    border-bottom-right-radius: 5px
+                    h3
+                        margin: 4%
+                        margin-bottom: 6%
+                    p
+                        margin: 3% 5%
+                        font-size: 14px
 // Fin section 3
 
 // Footer
@@ -163,5 +179,5 @@ footer
 // Fin footer
 
 
-@media screen and (min-width: 320px) and (max-width:599px)
+// @media screen and (min-width: 320px) and (max-width:599px)
     
